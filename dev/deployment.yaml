@@ -1,0 +1,21 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: argocd-app-deployment
+  labels:
+    app: argocd-app
+spec:
+  replicas: 10 # Number of desired replicas
+  selector:
+    matchLabels:
+      app: argocd-app
+  template:
+    metadata:
+      labels:
+        app: argocd-app
+    spec:
+      containers:
+      - name: argocd-app-container
+        image: nginx:latest # Replace with your desired image
+        ports:
+        - containerPort: 80

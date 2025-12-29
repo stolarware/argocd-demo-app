@@ -1,0 +1,15 @@
+stolar@fedora:~/sno/stolarware/argocd-demo-app$ git push -u origin main --force-with-lease
+fatal: cannot exec '/usr/bin/ksshaskpass': Nie ma takiego pliku ani katalogu
+Username for 'https://github.com': stolarware
+fatal: cannot exec '/usr/bin/ksshaskpass': Nie ma takiego pliku ani katalogu
+Password for 'https://stolarware@github.com': 
+Wymienianie obiektów: 3, gotowe.
+Zliczanie obiektów: 100% (3/3), gotowe.
+Zapisywanie obiektów: 100% (3/3), 245 bajtów | 245.00 KiB/s, gotowe.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0 (from 0)
+To https://github.com/stolarware/argocd-demo-app.git
+ + 605fa89...7f244ea main -> main (forced update)
+branch 'main' set up to track 'origin/main'.
+================================
+/home/stolar/sno/token-github-28-12-2025.txt
+===================================
